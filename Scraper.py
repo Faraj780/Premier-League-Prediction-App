@@ -46,7 +46,7 @@ for year in years:
         team_data['Team'] = team_name
         allmatches.append(team_data)
 
-    time.sleep(1)
+    time.sleep(5)
 
 match_df = pandas.concat(allmatches)
 match_df.columns = [c.lower() for c in match_df.columns]
