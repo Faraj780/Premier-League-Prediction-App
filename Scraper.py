@@ -11,10 +11,18 @@ allmatches = []
 for year in years:
     data = requests.get(standings_url)
     soup = BeautifulSoup(data.text)
-    standings_table = soup.select('table.stats_table')[0]
+    try:
+        standings_table = soup.select('table.stats_table')[0]
+    except IndexError:
+        print(f"No standings table found for year {year}. Closing.")
+        break
     links = [l.get('href') for l in standings_table.find_all('a')]
+
     links = [l for l in links if '/squads/' in l]
-    team_urls=["https://fbref.com" + l for l in links]
+    team_urls=["https://fbref.com/" + l for l in links]
+
+    previous_season = soup.select("a.prev")[0].get("href")
+    standings_url = "https://fbref.com/" + previous_season
 
     for team_url in team_urls:
         team_name = team_url.split("/")[-1].replace("-Stats", " ").replace("-")
@@ -37,5 +45,9 @@ for year in years:
         team_data['Season'] = year
         team_data['Team'] = team_name
         allmatches.append(team_data)
+
     time.sleep(1)
-print(team_urls)
+
+match_df = pandas.concat(allmatches)
+match_df.columns = [c.lower() for c in match_df.columns]
+match_df.to_csv("match_data.csv")
