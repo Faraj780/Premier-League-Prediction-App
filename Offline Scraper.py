@@ -67,7 +67,8 @@ def main():
     html_files = list(HTML_DIR.glob("*.html"))
     stats_files = sorted(
         path for path in html_files
-        if get_competition(path) in ALLOWED_COMPETITIONS
+        if " Stats," in path.name
+        and not path.name.startswith("Premier League Stats")
     )
 
     if not stats_files:

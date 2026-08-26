@@ -1,4 +1,42 @@
 date,time,comp,round,day,venue,result,gf,ga,opponent,poss,attendance,captain,formation,opp_formation,referee,match_report,notes,sh,sot,dist,fk,pk,pkatt,season,team
+2025-08-17,16:30,Premier League,Matchweek 1,Sun,Away,W,1,0,Manchester Utd,39.0,73475.0,Martin Ødegaard,4-3-3,3-4-3,Simon Hooper,Match Report,,9.0,3.0,,,0.0,0.0,2025-2026,Arsenal
+2025-08-23,17:30,Premier League,Matchweek 2,Sat,Home,W,5,0,Leeds United,68.0,60110.0,Martin Ødegaard,4-3-3,4-3-3,Jarred Gillett,Match Report,,18.0,5.0,,,1.0,1.0,2025-2026,Arsenal
+2025-08-31,16:30,Premier League,Matchweek 3,Sun,Away,L,0,1,Liverpool,47.0,60455.0,Gabriel Magalhães,4-3-3,4-2-3-1,Chris Kavanagh,Match Report,,11.0,1.0,,,0.0,0.0,2025-2026,Arsenal
+2025-09-13,12:30,Premier League,Matchweek 4,Sat,Home,W,3,0,Nottingham,54.0,60167.0,Martin Ødegaard,4-3-3,4-2-3-1,Darren England,Match Report,,16.0,5.0,,,0.0,0.0,2025-2026,Arsenal
+2025-09-21,16:30,Premier League,Matchweek 5,Sun,Home,D,1,1,Manchester City,67.0,60161.0,Gabriel Magalhães,4-3-3,4-1-4-1,Stuart Attwell,Match Report,,12.0,3.0,,,0.0,0.0,2025-2026,Arsenal
+2025-09-28,16:30,Premier League,Matchweek 6,Sun,Away,W,2,1,Newcastle,64.0,52199.0,Bukayo Saka,4-2-3-1,4-3-3,Jarred Gillett,Match Report,,20.0,7.0,,,0.0,0.0,2025-2026,Arsenal
+2025-10-04,15:00,Premier League,Matchweek 7,Sat,Home,W,2,0,West Ham,68.0,60181.0,Martin Ødegaard,4-3-3,4-1-4-1,John Brooks,Match Report,,21.0,5.0,,,1.0,1.0,2025-2026,Arsenal
+2025-10-18,17:30,Premier League,Matchweek 8,Sat,Away,W,1,0,Fulham,63.0,27736.0,Bukayo Saka,4-3-3,4-2-3-1,Anthony Taylor,Match Report,,16.0,5.0,,,0.0,0.0,2025-2026,Arsenal
+2025-10-26,14:00,Premier League,Matchweek 9,Sun,Home,W,1,0,Crystal Palace,60.0,60103.0,Bukayo Saka,4-3-3,3-4-3,Thomas Bramall,Match Report,,10.0,3.0,,,0.0,0.0,2025-2026,Arsenal
+2025-11-01,15:00,Premier League,Matchweek 10,Sat,Away,W,2,0,Burnley,54.0,21538.0,Bukayo Saka,4-3-3,5-4-1,Chris Kavanagh,Match Report,,12.0,8.0,,,0.0,0.0,2025-2026,Arsenal
+2025-11-08,17:30,Premier League,Matchweek 11,Sat,Away,D,2,2,Sunderland,65.0,46799.0,Bukayo Saka,4-2-3-1,5-4-1,Craig Pawson,Match Report,,17.0,7.0,,,0.0,0.0,2025-2026,Arsenal
+2025-11-23,16:30,Premier League,Matchweek 12,Sun,Home,W,4,1,Tottenham,57.0,60345.0,Bukayo Saka,4-2-3-1,3-4-3,Michael Oliver,Match Report,,17.0,8.0,,,0.0,0.0,2025-2026,Arsenal
+2025-11-30,16:30,Premier League,Matchweek 13,Sun,Away,D,1,1,Chelsea,62.0,39820.0,Bukayo Saka,4-3-3,4-2-3-1,Anthony Taylor,Match Report,,8.0,4.0,,,0.0,0.0,2025-2026,Arsenal
+2025-12-03,19:30,Premier League,Matchweek 14,Wed,Home,W,2,0,Brentford,62.0,60110.0,Martin Ødegaard,4-3-3,5-3-2,Tony Harrington,Match Report,,15.0,7.0,,,0.0,0.0,2025-2026,Arsenal
+2025-12-06,12:30,Premier League,Matchweek 15,Sat,Away,L,1,2,Aston Villa,53.0,42888.0,Martin Ødegaard,4-3-3,4-2-3-1,Peter Bankes,Match Report,,15.0,9.0,,,0.0,0.0,2025-2026,Arsenal
+2025-12-13,20:00,Premier League,Matchweek 16,Sat,Home,W,2,1,Wolves,69.0,60242.0,Bukayo Saka,4-3-3,3-5-2,Robert Jones,Match Report,,16.0,2.0,,,0.0,0.0,2025-2026,Arsenal
+2025-12-20,20:00,Premier League,Matchweek 17,Sat,Away,W,1,0,Everton,65.0,52513.0,Martin Ødegaard,4-3-3,4-2-3-1,Samuel Barrott,Match Report,,13.0,2.0,,,1.0,1.0,2025-2026,Arsenal
+2025-12-27,15:00,Premier League,Matchweek 18,Sat,Home,W,2,1,Brighton,53.0,60209.0,Martin Ødegaard,4-3-3,3-4-3,John Brooks,Match Report,,24.0,6.0,,,0.0,0.0,2025-2026,Arsenal
+2025-12-30,20:15,Premier League,Matchweek 19,Tue,Home,W,4,1,Aston Villa,47.0,60279.0,Martin Ødegaard,4-3-3,4-2-3-1,Darren England,Match Report,,22.0,7.0,,,0.0,0.0,2025-2026,Arsenal
+2026-01-03,17:30,Premier League,Matchweek 20,Sat,Away,W,3,2,Bournemouth,57.0,11240.0,Martin Ødegaard,4-3-3,4-2-3-1,Chris Kavanagh,Match Report,,12.0,5.0,,,0.0,0.0,2025-2026,Arsenal
+2026-01-08,20:00,Premier League,Matchweek 21,Thu,Home,D,0,0,Liverpool,48.0,60258.0,Martin Ødegaard,4-3-3,4-2-3-1,Anthony Taylor,Match Report,,9.0,4.0,,,0.0,0.0,2025-2026,Arsenal
+2026-01-17,17:30,Premier League,Matchweek 22,Sat,Away,D,0,0,Nottingham,61.0,30729.0,Martin Ødegaard,4-3-3,4-2-3-1,Michael Oliver,Match Report,,15.0,3.0,,,0.0,0.0,2025-2026,Arsenal
+2026-01-25,16:30,Premier League,Matchweek 23,Sun,Home,L,2,3,Manchester Utd,57.0,60296.0,Martin Ødegaard,4-3-3,4-2-3-1,Craig Pawson,Match Report,,15.0,4.0,,,0.0,0.0,2025-2026,Arsenal
+2026-01-31,15:00,Premier League,Matchweek 24,Sat,Away,W,4,0,Leeds United,51.0,36858.0,Gabriel Magalhães,4-2-3-1,3-4-3,Stuart Attwell,Match Report,,14.0,8.0,,,0.0,0.0,2025-2026,Arsenal
+2026-02-07,15:00,Premier League,Matchweek 25,Sat,Home,W,3,0,Sunderland,50.0,60312.0,Gabriel Magalhães,4-3-3,4-2-3-1,Samuel Barrott,Match Report,,16.0,5.0,,,0.0,0.0,2025-2026,Arsenal
+2026-02-12,20:00,Premier League,Matchweek 26,Thu,Away,D,1,1,Brentford,60.0,17224.0,Gabriel Magalhães,4-2-3-1,4-2-3-1,John Brooks,Match Report,,7.0,2.0,,,0.0,0.0,2025-2026,Arsenal
+2026-02-18,20:00,Premier League,Matchweek 31,Wed,Away,D,2,2,Wolves,58.0,29843.0,Bukayo Saka,4-2-3-1,3-4-3,Paul Tierney,Match Report,,10.0,4.0,,,0.0,0.0,2025-2026,Arsenal
+2026-02-22,16:30,Premier League,Matchweek 27,Sun,Away,W,4,1,Tottenham,61.0,61439.0,Bukayo Saka,4-2-3-1,3-5-2,Peter Bankes,Match Report,,20.0,7.0,,,0.0,0.0,2025-2026,Arsenal
+2026-03-01,16:30,Premier League,Matchweek 28,Sun,Home,W,2,1,Chelsea,41.0,60296.0,Bukayo Saka,4-2-3-1,4-3-3,Darren England,Match Report,,12.0,5.0,,,0.0,0.0,2025-2026,Arsenal
+2026-03-04,19:30,Premier League,Matchweek 29,Wed,Away,W,1,0,Brighton,40.0,31575.0,Bukayo Saka,4-2-3-1,4-2-3-1,Chris Kavanagh,Match Report,,7.0,2.0,,,0.0,0.0,2025-2026,Arsenal
+2026-03-14,17:30,Premier League,Matchweek 30,Sat,Home,W,2,0,Everton,65.0,60176.0,Bukayo Saka,4-2-3-1,4-2-3-1,Andy Madley,Match Report,,25.0,7.0,,,0.0,0.0,2025-2026,Arsenal
+2026-04-11,12:30,Premier League,Matchweek 32,Sat,Home,L,1,2,Bournemouth,53.0,60210.0,Declan Rice,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,15.0,3.0,,,1.0,1.0,2025-2026,Arsenal
+2026-04-19,16:30,Premier League,Matchweek 33,Sun,Away,L,1,2,Manchester City,41.0,52523.0,Martin Ødegaard,4-3-3,4-2-3-1,Anthony Taylor,Match Report,,9.0,3.0,,,0.0,0.0,2025-2026,Arsenal
+2026-04-25,17:30,Premier League,Matchweek 34,Sat,Home,W,1,0,Newcastle,45.0,60204.0,Martin Ødegaard,4-3-3,4-1-4-1,Samuel Barrott,Match Report,,11.0,4.0,,,0.0,0.0,2025-2026,Arsenal
+2026-05-02,17:30,Premier League,Matchweek 35,Sat,Home,W,3,0,Fulham,54.0,60196.0,Bukayo Saka,4-2-3-1,4-2-3-1,Jarred Gillett,Match Report,,18.0,9.0,,,0.0,0.0,2025-2026,Arsenal
+2026-05-10,16:30,Premier League,Matchweek 36,Sun,Away,W,1,0,West Ham,64.0,60429.0,Bukayo Saka,4-2-3-1,3-4-3,Chris Kavanagh,Match Report,,15.0,4.0,,,0.0,0.0,2025-2026,Arsenal
+2026-05-18,20:00,Premier League,Matchweek 37,Mon,Home,W,1,0,Burnley,61.0,60274.0,Martin Ødegaard,4-3-3,4-2-3-1,Paul Tierney,Match Report,,13.0,3.0,,,0.0,0.0,2025-2026,Arsenal
+2026-05-24,16:00,Premier League,Matchweek 38,Sun,Away,W,2,1,Crystal Palace,61.0,25192.0,Gabriel Jesus,4-2-3-1,3-4-3,Farai Hallam,Match Report,,17.0,7.0,,,0.0,0.0,2025-2026,Arsenal
 2025-08-16,12:30,Premier League,Matchweek 1,Sat,Home,D,0,0,Newcastle,41.0,42526.0,John McGinn,4-2-3-1,4-3-3,Craig Pawson,Match Report,,3.0,3.0,,,0.0,0.0,2025-2026,Aston Villa
 2025-08-23,15:00,Premier League,Matchweek 2,Sat,Away,L,0,1,Brentford,76.0,16838.0,John McGinn,4-2-3-1,4-2-3-1,Tony Harrington,Match Report,,17.0,2.0,,,0.0,0.0,2025-2026,Aston Villa
 2025-08-31,19:00,Premier League,Matchweek 3,Sun,Home,L,0,3,Crystal Palace,58.0,41036.0,John McGinn,4-2-3-1,3-4-3,Stuart Attwell,Match Report,,13.0,4.0,,,0.0,0.0,2025-2026,Aston Villa
@@ -824,6 +862,44 @@ date,time,comp,round,day,venue,result,gf,ga,opponent,poss,attendance,captain,for
 2027-05-15,15:00,Premier League,Matchweek 36,Sat,Home,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Aston Villa
 2027-05-23,15:00,Premier League,Matchweek 37,Sun,Away,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Aston Villa
 2027-05-30,16:00,Premier League,Matchweek 38,Sun,Home,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Aston Villa
+2026-08-23,14:00,Premier League,Matchweek 1,Sun,Away,L,1.0,2.0,Manchester City,34.0,60645.0,Adam Smith,4-2-3-1,4-2-3-1,Jarred Gillett,Match Report,,5.0,4.0,,,0.0,0.0,2026-2027,Bournemouth
+2026-08-29,15:00,Premier League,Matchweek 2,Sat,Home,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-09-05,12:30,Premier League,Matchweek 3,Sat,Away,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-09-12,15:00,Premier League,Matchweek 4,Sat,Home,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-09-20,14:00,Premier League,Matchweek 5,Sun,Home,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-10-10,15:00,Premier League,Matchweek 6,Sat,Away,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-10-18,14:00,Premier League,Matchweek 7,Sun,Home,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-10-25,14:00,Premier League,Matchweek 8,Sun,Away,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-10-31,15:00,Premier League,Matchweek 9,Sat,Home,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-11-07,15:00,Premier League,Matchweek 10,Sat,Away,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-11-21,15:00,Premier League,Matchweek 11,Sat,Home,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-11-28,15:00,Premier League,Matchweek 12,Sat,Away,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-12-02,20:00,Premier League,Matchweek 13,Wed,Home,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-12-05,15:00,Premier League,Matchweek 14,Sat,Home,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-12-12,15:00,Premier League,Matchweek 15,Sat,Away,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-12-19,15:00,Premier League,Matchweek 16,Sat,Home,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-12-26,15:00,Premier League,Matchweek 17,Sat,Away,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2026-12-30,20:00,Premier League,Matchweek 18,Wed,Away,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-01-02,15:00,Premier League,Matchweek 19,Sat,Home,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-01-06,20:00,Premier League,Matchweek 20,Wed,Away,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-01-16,15:00,Premier League,Matchweek 21,Sat,Home,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-01-23,15:00,Premier League,Matchweek 22,Sat,Away,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-01-30,15:00,Premier League,Matchweek 23,Sat,Home,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-02-06,15:00,Premier League,Matchweek 24,Sat,Away,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-02-10,20:00,Premier League,Matchweek 25,Wed,Away,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-02-20,15:00,Premier League,Matchweek 26,Sat,Home,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-02-27,15:00,Premier League,Matchweek 27,Sat,Away,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-03-03,20:00,Premier League,Matchweek 28,Wed,Home,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-03-13,15:00,Premier League,Matchweek 29,Sat,Home,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-03-20,15:00,Premier League,Matchweek 30,Sat,Away,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-04-10,15:00,Premier League,Matchweek 31,Sat,Home,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-04-17,15:00,Premier League,Matchweek 32,Sat,Away,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-04-24,15:00,Premier League,Matchweek 33,Sat,Home,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-05-01,15:00,Premier League,Matchweek 34,Sat,Away,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-05-08,15:00,Premier League,Matchweek 35,Sat,Home,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-05-15,15:00,Premier League,Matchweek 36,Sat,Away,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-05-23,15:00,Premier League,Matchweek 37,Sun,Home,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
+2027-05-30,16:00,Premier League,Matchweek 38,Sun,Away,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Bournemouth
 2026-08-22,17:30,Premier League,Matchweek 1,Sat,Home,W,3.0,0.0,Tottenham,41.0,17180.0,Nathan Collins,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,26.0,8.0,,,0.0,1.0,2026-2027,Brentford
 2026-08-30,14:00,Premier League,Matchweek 2,Sun,Away,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Brentford
 2026-09-05,15:00,Premier League,Matchweek 3,Sat,Home,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Brentford
@@ -976,6 +1052,44 @@ date,time,comp,round,day,venue,result,gf,ga,opponent,poss,attendance,captain,for
 2027-05-15,15:00,Premier League,Matchweek 36,Sat,Home,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Coventry City
 2027-05-23,15:00,Premier League,Matchweek 37,Sun,Away,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Coventry City
 2027-05-30,16:00,Premier League,Matchweek 38,Sun,Home,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Coventry City
+2026-08-22,15:00,Premier League,Matchweek 1,Sat,Away,L,0.0,2.0,Everton,58.0,51820.0,Dean Henderson,3-4-3,4-2-3-1,Paul Tierney,Match Report,,11.0,4.0,,,0.0,0.0,2026-2027,Crystal Palace
+2026-08-28,20:00,Premier League,Matchweek 2,Fri,Home,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-09-05,15:00,Premier League,Matchweek 3,Sat,Away,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-09-12,15:00,Premier League,Matchweek 4,Sat,Home,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-09-19,15:00,Premier League,Matchweek 5,Sat,Away,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-10-11,14:00,Premier League,Matchweek 6,Sun,Home,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-10-18,14:00,Premier League,Matchweek 7,Sun,Away,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-10-25,14:00,Premier League,Matchweek 8,Sun,Home,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-10-31,17:30,Premier League,Matchweek 9,Sat,Away,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-11-07,15:00,Premier League,Matchweek 10,Sat,Home,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-11-21,15:00,Premier League,Matchweek 11,Sat,Away,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-11-28,15:00,Premier League,Matchweek 12,Sat,Home,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-12-02,20:00,Premier League,Matchweek 13,Wed,Away,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-12-05,15:00,Premier League,Matchweek 14,Sat,Away,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-12-12,15:00,Premier League,Matchweek 15,Sat,Home,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-12-19,15:00,Premier League,Matchweek 16,Sat,Away,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-12-26,15:00,Premier League,Matchweek 17,Sat,Home,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2026-12-30,20:00,Premier League,Matchweek 18,Wed,Home,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-01-02,15:00,Premier League,Matchweek 19,Sat,Away,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-01-06,20:00,Premier League,Matchweek 20,Wed,Home,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-01-16,15:00,Premier League,Matchweek 21,Sat,Away,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-01-23,15:00,Premier League,Matchweek 22,Sat,Home,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-01-30,15:00,Premier League,Matchweek 23,Sat,Away,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-02-06,15:00,Premier League,Matchweek 24,Sat,Home,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-02-10,20:00,Premier League,Matchweek 25,Wed,Home,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-02-20,15:00,Premier League,Matchweek 26,Sat,Away,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-02-27,15:00,Premier League,Matchweek 27,Sat,Home,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-03-03,20:00,Premier League,Matchweek 28,Wed,Away,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-03-13,15:00,Premier League,Matchweek 29,Sat,Home,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-03-20,15:00,Premier League,Matchweek 30,Sat,Away,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-04-10,15:00,Premier League,Matchweek 31,Sat,Home,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-04-17,15:00,Premier League,Matchweek 32,Sat,Away,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-04-24,15:00,Premier League,Matchweek 33,Sat,Away,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-05-01,15:00,Premier League,Matchweek 34,Sat,Home,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-05-08,15:00,Premier League,Matchweek 35,Sat,Away,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-05-15,15:00,Premier League,Matchweek 36,Sat,Home,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-05-23,15:00,Premier League,Matchweek 37,Sun,Away,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
+2027-05-30,16:00,Premier League,Matchweek 38,Sun,Home,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Crystal Palace
 2026-08-22,15:00,Premier League,Matchweek 1,Sat,Home,W,2.0,0.0,Crystal Palace,42.0,51820.0,James Tarkowski,4-2-3-1,3-4-3,Paul Tierney,Match Report,,16.0,5.0,,,0.0,0.0,2026-2027,Everton
 2026-08-29,15:00,Premier League,Matchweek 2,Sat,Away,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Everton
 2026-09-06,14:00,Premier League,Matchweek 3,Sun,Home,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Everton
@@ -1166,6 +1280,44 @@ date,time,comp,round,day,venue,result,gf,ga,opponent,poss,attendance,captain,for
 2027-05-15,15:00,Premier League,Matchweek 36,Sat,Away,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Leeds United
 2027-05-23,15:00,Premier League,Matchweek 37,Sun,Home,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Leeds United
 2027-05-30,16:00,Premier League,Matchweek 38,Sun,Away,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Leeds United
+2026-08-23,16:30,Premier League,Matchweek 1,Sun,Away,D,2.0,2.0,Newcastle,61.0,52630.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,27.0,7.0,,,1.0,1.0,2026-2027,Liverpool
+2026-08-29,12:30,Premier League,Matchweek 2,Sat,Home,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-09-04,20:00,Premier League,Matchweek 3,Fri,Away,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-09-12,15:00,Premier League,Matchweek 4,Sat,Home,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-09-20,14:00,Premier League,Matchweek 5,Sun,Away,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-10-11,16:30,Premier League,Matchweek 6,Sun,Home,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-10-17,15:00,Premier League,Matchweek 7,Sat,Away,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-10-24,15:00,Premier League,Matchweek 8,Sat,Home,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-11-01,16:30,Premier League,Matchweek 9,Sun,Home,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-11-07,15:00,Premier League,Matchweek 10,Sat,Away,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-11-21,15:00,Premier League,Matchweek 11,Sat,Home,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-11-28,15:00,Premier League,Matchweek 12,Sat,Away,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-12-02,20:00,Premier League,Matchweek 13,Wed,Home,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-12-05,15:00,Premier League,Matchweek 14,Sat,Away,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-12-12,15:00,Premier League,Matchweek 15,Sat,Home,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-12-19,15:00,Premier League,Matchweek 16,Sat,Home,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-12-26,15:00,Premier League,Matchweek 17,Sat,Away,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2026-12-30,20:00,Premier League,Matchweek 18,Wed,Away,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-01-02,15:00,Premier League,Matchweek 19,Sat,Home,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-01-06,20:00,Premier League,Matchweek 20,Wed,Away,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-01-16,15:00,Premier League,Matchweek 21,Sat,Home,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-01-23,15:00,Premier League,Matchweek 22,Sat,Away,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-01-30,15:00,Premier League,Matchweek 23,Sat,Home,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-02-06,15:00,Premier League,Matchweek 24,Sat,Away,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-02-10,20:00,Premier League,Matchweek 25,Wed,Away,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-02-20,15:00,Premier League,Matchweek 26,Sat,Home,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-02-27,15:00,Premier League,Matchweek 27,Sat,Away,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-03-03,20:00,Premier League,Matchweek 28,Wed,Home,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-03-13,15:00,Premier League,Matchweek 29,Sat,Home,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-03-20,15:00,Premier League,Matchweek 30,Sat,Away,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-04-10,15:00,Premier League,Matchweek 31,Sat,Home,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-04-17,15:00,Premier League,Matchweek 32,Sat,Away,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-04-24,15:00,Premier League,Matchweek 33,Sat,Away,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-05-01,15:00,Premier League,Matchweek 34,Sat,Home,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-05-08,15:00,Premier League,Matchweek 35,Sat,Away,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-05-15,15:00,Premier League,Matchweek 36,Sat,Home,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-05-23,15:00,Premier League,Matchweek 37,Sun,Away,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
+2027-05-30,16:00,Premier League,Matchweek 38,Sun,Home,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Liverpool
 2026-08-23,14:00,Premier League,Matchweek 1,Sun,Home,W,2.0,1.0,Bournemouth,66.0,60645.0,Rúben Dias,4-2-3-1,4-2-3-1,Jarred Gillett,Match Report,,13.0,6.0,,,0.0,0.0,2026-2027,Manchester City
 2026-08-28,20:00,Premier League,Matchweek 2,Fri,Away,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester City
 2026-09-05,15:00,Premier League,Matchweek 3,Sat,Home,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester City
@@ -1204,6 +1356,44 @@ date,time,comp,round,day,venue,result,gf,ga,opponent,poss,attendance,captain,for
 2027-05-15,15:00,Premier League,Matchweek 36,Sat,Away,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester City
 2027-05-23,15:00,Premier League,Matchweek 37,Sun,Home,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester City
 2027-05-30,16:00,Premier League,Matchweek 38,Sun,Away,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester City
+2026-08-22,12:30,Premier League,Matchweek 1,Sat,Away,L,0.0,2.0,Hull City,72.0,24470.0,Bruno Fernandes,4-2-3-1,5-4-1,Darren England,Match Report,,21.0,5.0,,,0.0,0.0,2026-2027,Manchester United
+2026-08-30,16:30,Premier League,Matchweek 2,Sun,Home,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-09-06,14:00,Premier League,Matchweek 3,Sun,Away,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-09-13,16:30,Premier League,Matchweek 4,Sun,Home,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-09-20,16:30,Premier League,Matchweek 5,Sun,Away,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-10-10,17:30,Premier League,Matchweek 6,Sat,Home,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-10-18,14:00,Premier League,Matchweek 7,Sun,Away,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-10-25,14:00,Premier League,Matchweek 8,Sun,Home,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-10-31,12:30,Premier League,Matchweek 9,Sat,Away,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-11-07,15:00,Premier League,Matchweek 10,Sat,Home,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-11-21,15:00,Premier League,Matchweek 11,Sat,Away,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-11-28,15:00,Premier League,Matchweek 12,Sat,Home,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-12-02,20:00,Premier League,Matchweek 13,Wed,Away,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-12-05,15:00,Premier League,Matchweek 14,Sat,Home,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-12-12,15:00,Premier League,Matchweek 15,Sat,Away,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-12-19,15:00,Premier League,Matchweek 16,Sat,Away,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-12-26,15:00,Premier League,Matchweek 17,Sat,Home,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2026-12-30,20:00,Premier League,Matchweek 18,Wed,Home,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-01-02,15:00,Premier League,Matchweek 19,Sat,Away,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-01-06,20:00,Premier League,Matchweek 20,Wed,Home,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-01-16,15:00,Premier League,Matchweek 21,Sat,Away,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-01-23,15:00,Premier League,Matchweek 22,Sat,Home,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-01-30,15:00,Premier League,Matchweek 23,Sat,Away,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-02-06,15:00,Premier League,Matchweek 24,Sat,Home,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-02-10,20:00,Premier League,Matchweek 25,Wed,Home,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-02-20,15:00,Premier League,Matchweek 26,Sat,Away,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-02-27,15:00,Premier League,Matchweek 27,Sat,Home,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-03-03,20:00,Premier League,Matchweek 28,Wed,Away,,,,Sunderland,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-03-13,15:00,Premier League,Matchweek 29,Sat,Home,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-03-20,15:00,Premier League,Matchweek 30,Sat,Away,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-04-10,15:00,Premier League,Matchweek 31,Sat,Home,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-04-17,15:00,Premier League,Matchweek 32,Sat,Away,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-04-24,15:00,Premier League,Matchweek 33,Sat,Home,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-05-01,15:00,Premier League,Matchweek 34,Sat,Away,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-05-08,15:00,Premier League,Matchweek 35,Sat,Away,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-05-15,15:00,Premier League,Matchweek 36,Sat,Home,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-05-23,15:00,Premier League,Matchweek 37,Sun,Away,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
+2027-05-30,16:00,Premier League,Matchweek 38,Sun,Home,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Manchester United
 2026-08-23,16:30,Premier League,Matchweek 1,Sun,Home,D,2.0,2.0,Liverpool,39.0,52630.0,Malick Thiaw,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,13.0,4.0,,,0.0,0.0,2026-2027,Newcastle United
 2026-08-29,17:30,Premier League,Matchweek 2,Sat,Away,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Newcastle United
 2026-09-05,12:30,Premier League,Matchweek 3,Sat,Home,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Newcastle United
@@ -1280,6 +1470,44 @@ date,time,comp,round,day,venue,result,gf,ga,opponent,poss,attendance,captain,for
 2027-05-15,15:00,Premier League,Matchweek 36,Sat,Away,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Nottingham Forest
 2027-05-23,15:00,Premier League,Matchweek 37,Sun,Home,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Nottingham Forest
 2027-05-30,16:00,Premier League,Matchweek 38,Sun,Away,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Nottingham Forest
+2026-08-22,15:00,Premier League,Matchweek 1,Sat,Away,L,1.0,2.0,Ipswich Town,63.0,29669.0,Granit Xhaka,4-2-3-1,4-2-3-1,Farai Hallam,Match Report,,11.0,4.0,,,0.0,0.0,2026-2027,Sunderland
+2026-08-30,14:00,Premier League,Matchweek 2,Sun,Home,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-09-05,15:00,Premier League,Matchweek 3,Sat,Away,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-09-12,20:00,Premier League,Matchweek 4,Sat,Home,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-09-19,15:00,Premier League,Matchweek 5,Sat,Away,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-10-10,15:00,Premier League,Matchweek 6,Sat,Home,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-10-18,14:00,Premier League,Matchweek 7,Sun,Away,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-10-25,16:30,Premier League,Matchweek 8,Sun,Home,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-10-31,15:00,Premier League,Matchweek 9,Sat,Away,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-11-07,15:00,Premier League,Matchweek 10,Sat,Home,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-11-21,15:00,Premier League,Matchweek 11,Sat,Away,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-11-28,15:00,Premier League,Matchweek 12,Sat,Home,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-12-02,20:00,Premier League,Matchweek 13,Wed,Away,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-12-05,15:00,Premier League,Matchweek 14,Sat,Away,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-12-12,15:00,Premier League,Matchweek 15,Sat,Home,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-12-19,15:00,Premier League,Matchweek 16,Sat,Home,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-12-26,15:00,Premier League,Matchweek 17,Sat,Away,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2026-12-30,20:00,Premier League,Matchweek 18,Wed,Away,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-01-02,15:00,Premier League,Matchweek 19,Sat,Home,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-01-06,20:00,Premier League,Matchweek 20,Wed,Home,,,,Liverpool,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-01-16,15:00,Premier League,Matchweek 21,Sat,Away,,,,Chelsea,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-01-23,15:00,Premier League,Matchweek 22,Sat,Home,,,,Coventry City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-01-30,15:00,Premier League,Matchweek 23,Sat,Away,,,,Tottenham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-02-06,15:00,Premier League,Matchweek 24,Sat,Home,,,,Aston Villa,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-02-10,20:00,Premier League,Matchweek 25,Wed,Away,,,,Hull City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-02-20,15:00,Premier League,Matchweek 26,Sat,Home,,,,Everton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-02-27,15:00,Premier League,Matchweek 27,Sat,Away,,,,Crystal Palace,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-03-03,20:00,Premier League,Matchweek 28,Wed,Home,,,,Manchester Utd,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-03-13,15:00,Premier League,Matchweek 29,Sat,Home,,,,Brentford,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-03-20,15:00,Premier League,Matchweek 30,Sat,Away,,,,Arsenal,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-04-10,15:00,Premier League,Matchweek 31,Sat,Home,,,,Ipswich Town,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-04-17,15:00,Premier League,Matchweek 32,Sat,Away,,,,Fulham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-04-24,15:00,Premier League,Matchweek 33,Sat,Away,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-05-01,15:00,Premier League,Matchweek 34,Sat,Home,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-05-08,15:00,Premier League,Matchweek 35,Sat,Away,,,,Brighton,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-05-15,15:00,Premier League,Matchweek 36,Sat,Home,,,,Bournemouth,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-05-23,15:00,Premier League,Matchweek 37,Sun,Away,,,,Leeds United,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
+2027-05-30,16:00,Premier League,Matchweek 38,Sun,Home,,,,Manchester City,,,,,,,Head-to-Head,,,,,,,,2026-2027,Sunderland
 2026-08-22,17:30,Premier League,Matchweek 1,Sat,Away,L,0.0,3.0,Brentford,59.0,17180.0,Archie Gray,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,9.0,4.0,,,0.0,0.0,2026-2027,Tottenham Hotspur
 2026-08-29,17:30,Premier League,Matchweek 2,Sat,Home,,,,Newcastle,,,,,,,Head-to-Head,,,,,,,,2026-2027,Tottenham Hotspur
 2026-09-05,15:00,Premier League,Matchweek 3,Sat,Away,,,,Nottingham,,,,,,,Head-to-Head,,,,,,,,2026-2027,Tottenham Hotspur
