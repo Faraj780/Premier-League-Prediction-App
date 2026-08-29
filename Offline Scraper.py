@@ -146,6 +146,11 @@ def main():
         str(column).lower().replace(" ", "_")
         for column in match_df.columns
     ]
+    
+    # Convert date column to datetime
+    if "date" in match_df.columns:
+        match_df["date"] = pd.to_datetime(match_df["date"], format="%Y-%m-%d", errors="coerce")
+    
     match_df.to_csv(OUTPUT_FILE, index=False)
     print(f"Created {OUTPUT_FILE.name} with {len(match_df)} rows.")
 
