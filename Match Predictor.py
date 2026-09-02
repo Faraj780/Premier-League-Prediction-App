@@ -8,25 +8,67 @@ matches["venue_code"] = matches["venue"].astype("category").cat.codes
 matches["opp_code"] = matches["opponent"].astype("category").cat.codes
 matches["hour"] = matches["time"].str.replace(":.+", "",regex=True).astype(int)
 matches["day_code"] = matches["date"].dt.dayofweek
+matches["is_home"] = (matches["venue"] == "Home").astype(int)
 matches["target"] = matches["result"].map({"W": 1, "D": 0, "L": -1})
+matches["result_points"] = matches["result"].map({"W": 3, "D": 1, "L": 0})
+matches["league_weight"] = matches["comp"].map({"Premier League": 1.0, "Championship": 0.4}).fillna(0.5)
 matches["year"] = matches["season"].str.split("-").str[1].astype(int)
 
 
-
-def rolling_average(group, cols, new_cols):
-    group = group.sort_values("date")
-    rolling_stats = group[cols].rolling(3, closed='left').mean()
-    group[new_cols] = rolling_stats
-    group = group.dropna(subset=new_cols)
+def rolling_average(group, cols, new_cols, window=3):
+    group = group.sort_values("date").copy()
+    for col, new_col in zip(cols, new_cols):
+        group[new_col] = group[col].shift(1).rolling(window=window, min_periods=1).mean()
     return group
 
 cols = ["gf","ga","sh","sot","pk","pkatt"]
 new_cols = [f"rolling_{col}" for col in cols]
 
-matches_rolling = matches.groupby("team").apply(lambda x: rolling_average(x, cols, new_cols),include_groups=False)
+frames = []
+for team, group in matches.groupby("team", sort=False):
+    frames.append(rolling_average(group, cols, new_cols, window=3))
 
-matches_rolling.index = range(matches_rolling.shape[0])
+matches_rolling = pd.concat(frames, ignore_index=True)
 
+# Keep the prediction window to known seasons only until the 2026-27 data is complete.
+matches_rolling = matches_rolling[matches_rolling["season"].isin(["2024-2025", "2025-2026"])].copy()
+
+# Add stronger recent-form features based on the last 5 matches for each team.
+matches_rolling = matches_rolling.sort_values(["team", "date"]).copy()
+
+for col in ["result_points", "gf", "ga", "sh", "sot"]:
+    matches_rolling[f"team_{col}_last_5"] = (
+        matches_rolling.groupby("team")[col]
+        .transform(lambda s: s.shift(1).rolling(5, min_periods=1).mean())
+    )
+
+matches_rolling["team_goal_diff_last_5"] = (
+    matches_rolling["team_gf_last_5"] - matches_rolling["team_ga_last_5"]
+)
+
+# Opponent form from the previous performance of the opponent before this match date.
+for col in ["result_points", "gf", "ga", "sh", "sot"]:
+    matches_rolling[f"opp_{col}_last_5"] = (
+        matches_rolling.groupby("opponent")[col]
+        .transform(lambda s: s.shift(1).rolling(5, min_periods=1).mean())
+    )
+
+matches_rolling["opp_goal_diff_last_5"] = (
+    matches_rolling["opp_gf_last_5"] - matches_rolling["opp_ga_last_5"]
+)
+
+# Normalise field names for the final model.
+for old, new in {
+    "opp_result_points_last_5": "opp_result_points",
+    "opp_gf_last_5": "opp_gf",
+    "opp_ga_last_5": "opp_ga",
+    "opp_sh_last_5": "opp_sh",
+    "opp_sot_last_5": "opp_sot",
+}.items():
+    if old in matches_rolling.columns:
+        matches_rolling[new] = matches_rolling[old]
+
+matches_rolling = matches_rolling.sort_values(["team", "date"]).reset_index(drop=True)
 
 # Map prediction values to readable format
 def pred_to_result(val):
@@ -36,30 +78,54 @@ rf = RandomForestClassifier(n_estimators=100, min_samples_split=10, random_state
 
 # Filter to only matches that have been played (have a result)
 played_matches = matches_rolling[matches_rolling["target"].notna()].copy()
-train = played_matches[played_matches["date"] < "01-01-2026"]
-test_played = played_matches[played_matches["date"] >= "01-01-2026"]
+train_season = "2024-2025"
+test_season = "2025-2026"
 
-predictors = ["venue_code", "opp_code", "hour", "day_code"]
-new_predictors = ["venue_code", "opp_code", "hour", "day_code"] + new_cols
-rf.fit(train[new_predictors], train["target"])
+train = played_matches[played_matches["season"] == train_season].copy()
+test_played = played_matches[played_matches["season"] == test_season].copy()
 
-# Make predictions for all test matches (2026 onwards that have been played)
+if train.empty or test_played.empty:
+    raise ValueError(
+        f"Training/test split requires {train_season} and {test_season} data. "
+        f"Found {len(train)} train rows and {len(test_played)} test rows."
+    )
+
+predictors = ["venue_code", "opp_code", "hour", "day_code", "is_home"]
+recent_form_predictors = [
+    "team_result_points_last_5",
+    "team_goal_diff_last_5",
+    "team_gf_last_5",
+    "team_ga_last_5",
+    "team_sh_last_5",
+    "team_sot_last_5",
+    "opp_result_points",
+    "opp_goal_diff_last_5",
+    "opp_gf",
+    "opp_ga",
+    "opp_sh",
+    "opp_sot",
+]
+new_predictors = predictors + recent_form_predictors + new_cols
+train_weights = train["league_weight"].to_numpy()
+rf.fit(train[new_predictors], train["target"], sample_weight=train_weights)
+
+# Make predictions for all matches in the test season that have already been played
 test_played = test_played.copy()
 test_preds = rf.predict(test_played[new_predictors])
 test_played["predicted_target"] = test_preds
 test_played["predicted_result"] = test_played["predicted_target"].apply(pred_to_result)
 
 acc = accuracy_score(test_played["target"], test_preds)
-print(f"Accuracy on played matches from 2026 onwards: {acc:.2%}\n")
+print(f"Accuracy on played matches in {test_season}: {acc:.2%}\n")
 
 print("=" * 80)
-print("PLAYED MATCHES (2025-2026 Season & 2026-2027 Season)")
+print(f"PLAYED MATCHES ({test_season})")
 print("=" * 80)
-played_predictions = test_played[["date", "opponent", "result", "predicted_result", "year"]]
+played_predictions = test_played[["date", "opponent", "result", "predicted_result", "year", "season"]]
 print(played_predictions.to_string(index=False))
 
-# Predict on future matches (matches without results)
-future_matches = matches[matches["target"].isna()].copy()
+# Predict on future matches only once the next season data is fully present.
+future_matches = pd.DataFrame(columns=matches_rolling.columns)
 if not future_matches.empty:
     rf.fit(train[predictors], train["target"])
     future_preds = rf.predict(future_matches[predictors])
@@ -69,12 +135,14 @@ if not future_matches.empty:
     print("\n" + "=" * 80)
     print("UNPLAYED MATCHES (Future Predictions)")
     print("=" * 80)
-    future_predictions = future_matches[["date","team", "opponent", "predicted_result", "year"]]
+    future_predictions = future_matches[["date","team", "opponent", "predicted_result", "year", "season"]]
     print(future_predictions.to_string(index=False))
 
 acc = accuracy_score(test_played["target"], test_preds)
-print(f"\nAccuracy on played matches from 2026 onwards: {acc:.2%}")
+print(f"\nAccuracy on played matches in {test_season}: {acc:.2%}")
 precision = precision_score(test_played["target"], test_preds, average='macro', zero_division=0)
-print(f"Precision on played matches from 2026 onwards: {precision:.2%}")
+print(f"Precision on played matches in {test_season}: {precision:.2%}")
 
-future_predictions.to_csv("prediction_data.csv", index=False)
+# Keep output file generation for the known seasons only.
+if 'future_predictions' in locals() and not future_predictions.empty:
+    future_predictions.to_csv("prediction_data.csv", index=False)
