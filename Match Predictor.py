@@ -9,7 +9,7 @@ matches["opp_code"] = matches["opponent"].astype("category").cat.codes
 matches["hour"] = matches["time"].str.replace(":.+", "",regex=True).astype(int)
 matches["day_code"] = matches["date"].dt.dayofweek
 matches["is_home"] = (matches["venue"] == "Home").astype(int)
-matches["target"] = matches["result"].map({"W": 1, "D": 0, "L": -1})
+matches["target"] = matches["result"].map({"W": 1, "D": 0, "L": 0})
 matches["result_points"] = matches["result"].map({"W": 3, "D": 1, "L": 0})
 matches["league_weight"] = matches["comp"].map({"Premier League": 1.0, "Championship": 0.4}).fillna(0.5)
 matches["year"] = matches["season"].str.split("-").str[1].astype(int)
@@ -72,7 +72,7 @@ matches_rolling = matches_rolling.sort_values(["team", "date"]).reset_index(drop
 
 # Map prediction values to readable format
 def pred_to_result(val):
-    return {1: "W", 0: "D", -1: "L"}.get(val, "?")
+    return {1: "W", 0: "D"}.get(val, "?")
 
 rf = RandomForestClassifier(n_estimators=100, min_samples_split=10, random_state=1)
 
@@ -123,6 +123,44 @@ print(f"PLAYED MATCHES ({test_season})")
 print("=" * 80)
 played_predictions = test_played[["date", "opponent", "result", "predicted_result", "year", "season"]]
 print(played_predictions.to_string(index=False))
+
+team_summary = pd.DataFrame({
+    "team": test_played["team"].unique()
+})
+
+actual_counts = (
+    test_played.groupby("team")["result"]
+    .value_counts()
+    .unstack(fill_value=0)
+    .rename(columns={"W": "actual_wins", "D": "actual_draws", "L": "actual_losses"})
+)
+actual_counts = actual_counts.reindex(columns=["actual_wins", "actual_draws", "actual_losses"], fill_value=0)
+actual_counts.index.name = "team"
+actual_counts = actual_counts.reset_index()
+
+predicted_counts = (
+    test_played.groupby("team")["predicted_result"]
+    .value_counts()
+    .unstack(fill_value=0)
+    .rename(columns={"W": "predicted_wins", "D": "predicted_draws", "L": "predicted_losses"})
+)
+predicted_counts = predicted_counts.reindex(columns=["predicted_wins", "predicted_draws", "predicted_losses"], fill_value=0)
+predicted_counts.index.name = "team"
+predicted_counts = predicted_counts.reset_index()
+
+team_summary = actual_counts.merge(predicted_counts, on="team", how="outer")
+team_summary["actual_games"] = (
+    team_summary["actual_wins"] + team_summary["actual_draws"] + team_summary["actual_losses"]
+)
+team_summary["predicted_games"] = (
+    team_summary["predicted_wins"] + team_summary["predicted_draws"] + team_summary["predicted_losses"]
+)
+team_summary["actual_win_pct"] = team_summary["actual_wins"] / team_summary["actual_games"]
+team_summary["predicted_win_pct"] = team_summary["predicted_wins"] / team_summary["predicted_games"]
+team_summary = team_summary[["team", "predicted_win_pct", "actual_win_pct"]].sort_values("team").reset_index(drop=True)
+team_summary.to_csv(f"{test_season}_team_prediction_summary.csv", index=False)
+print("\nSaved team summary to " + f"{test_season}_team_prediction_summary.csv")
+print(team_summary.to_string(index=False))
 
 # Predict on future matches only once the next season data is fully present.
 future_matches = pd.DataFrame(columns=matches_rolling.columns)
